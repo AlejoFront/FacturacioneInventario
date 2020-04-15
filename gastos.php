@@ -45,44 +45,6 @@
 
 </div> <!-- /row -->
 
-	<div class="panel panel-info" >
-			<div class="panel-heading" >
-				<div class="page-heading"> <i class="glyphicon glyphicon-edit"></i> Reportes de Gastos</div>
-			</div> <!-- /panel-heading -->
-
-			<div class="panel-body">
-
-				<div class="col-md-4">
-
-					<div class="div-action " style="padding-bottom:20px;">
-					<p>Imprimir Historial de Gastos</p>
-					<a href="pdf/RptGastos.php" title=""  target=”_blank” ><button class="btn btn-danger button1" data-toggle="modal" > <i class="glyphicon glyphicon-print"></i> Imprimir </button></a>
-					</div> <!-- /div-action -->	
-					
-				</div>
-
-				<div class="col-md-8">
-					<div class="div-action " style="padding-bottom:20px;">
-						<p>Imprimir Gastos por Fechas</p>
-						<form action="" method="POST" accept-charset="utf-8" class="form-inline" role="form">
-							<div class="form-group"><label>Fecha Inicial:</label>
-								<input type="date" class="form-control" name="fcha1G" id="fcha1G"  required/>
-							</div>
-							<div class="form-group"><label>Fecha Final:</label>
-								<input type="date" class="form-control" name="fcha2G" id="fcha2G" required/>
-							</div>
-							<div class="form-group">
-								<a href="javascript:reportePDFGastosxFechas();" class="btn btn-danger" rol="button"><i class="glyphicon glyphicon-print" ></i>  Imprimir</a>
-							</div>
-						</form>
-					</div>
-				</div>
-
-			</div> <!-- /panel-body -->
-		</div> <!-- /panel -->	
-
-
-
 <!-- edit Gasto  Modal-->
 <div class="modal fade" data-backdrop="static" data-keyboard="false" id="editGastoModal" tabindex="-1" role="dialog">
 	<div class="modal-dialog">

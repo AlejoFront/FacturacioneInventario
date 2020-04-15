@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca022783-1677-4ecb-86d3-bb60b5debd62" name="Default Changelist" comment="" />
+    <list default="true" id="ca022783-1677-4ecb-86d3-bb60b5debd62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom/js/saleProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/showOtherGastos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/showProductComprados.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php_action/createSaleProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php_action/fetchSaleProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saleProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/js/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/custom/js/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/js/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/custom/js/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editOrders.php" beforeDir="false" afterPath="$PROJECT_DIR$/editOrders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gastos.php" beforeDir="false" afterPath="$PROJECT_DIR$/gastos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/plantilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/plantilla.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/showProductVerduras.php" beforeDir="false" afterPath="$PROJECT_DIR$/pdf/showProductVerduras.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_action/createProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_action/createProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports.php" beforeDir="false" afterPath="$PROJECT_DIR$/reports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +56,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aMYypfiIeypcyBraNKRlr4CBcX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,7 +101,8 @@
       <workItem from="1586700613942" duration="6628000" />
       <workItem from="1586800096264" duration="17888000" />
       <workItem from="1586870437549" duration="9284000" />
-      <workItem from="1586888825928" duration="3129000" />
+      <workItem from="1586888825928" duration="3806000" />
+      <workItem from="1586957285546" duration="28413000" />
     </task>
     <servers />
   </component>
@@ -88,10 +118,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="44" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1586878881753" />
-    <state x="641" y="177" width="354" height="147" key="NewPhpFileDialog" timestamp="1586889314622">
+    <state x="641" y="177" width="354" height="147" key="NewPhpFileDialog" timestamp="1586983707988">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="641" y="177" width="354" height="147" key="NewPhpFileDialog/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1586889314622" />
+    <state x="641" y="177" width="354" height="147" key="NewPhpFileDialog/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1586983707988" />
     <state x="699" y="110" width="647" height="647" key="find.popup" timestamp="1586891922463">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -100,16 +130,5 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="408" y="298" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1586548256928" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/pdf/plantilla.php</url>
-          <line>253</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

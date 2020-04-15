@@ -424,13 +424,6 @@
 
 			        </div> <!-- /form-group-->
 
-			        <div class="form-group">
-						<label for="quantity" class="col-sm-3 control-label">Stock </label>
-						<label class="col-sm-1 control-label">: </label>
-							<div class="col-sm-8">
-								<input type="text" class="form-control" id="quantity" placeholder="Stock" name="quantity" autocomplete="off">
-							</div>
-					</div> <!-- /form-group--> 
 
 					<div class="form-group">
 			        	<label for="productGenero" class="col-sm-3 control-label">Categoria </label>

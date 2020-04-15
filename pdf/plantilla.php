@@ -218,6 +218,69 @@ class Lista extends FPDF{
     }
 }
 
+
+
+
+class ListComprado extends FPDF{
+
+    function Header(){
+
+        $this->Image('images/stars.png', 5, 5, 30);
+        $this->SetFont('Arial','B',15);
+        $this->Cell(30);
+        $this->Cell(120,10,utf8_decode( 'Catálogo de Productos Comprados'),0,0,'C');
+        $this->SetFont('Arial','B',10);
+        $this->Cell(50, 10, 'Hoy: '.date('d/m/Y').'', 0);
+        $this->Ln(20);
+
+        $this->SetFillColor(232,232,232);
+        $this->SetFont('Arial','B',12);
+        $this->Cell(25,6,'Cod Barras',1,0,'C',1);
+        $this->Cell(80,6,'Nombre Producto',1,0,'C',1);
+        $this->Cell(70,6,'Precio Compra',1,0,'C',1);
+        $this->Cell(70,6,'Cantidad Comprada',1,0,'C',1);
+        $this->Cell(30,6,'Fecha Compra',1,1,'C',1);
+    }
+
+    function Footer(){
+
+        $this->SetY(-15);
+        $this->SetFont('Arial','I', 8);
+        $this->Cell(0,10, 'Pagina '.$this->PageNo().'/{nb}',0,0,'C' );
+    }
+}
+
+
+
+
+class ListGastosFijos extends FPDF{
+
+    function Header(){
+
+        $this->Image('images/stars.png', 5, 5, 30);
+        $this->SetFont('Arial','B',15);
+        $this->Cell(30);
+        $this->Cell(120,10,utf8_decode( 'Catálogo de Productos Comprados'),0,0,'C');
+        $this->SetFont('Arial','B',10);
+        $this->Cell(50, 10, 'Hoy: '.date('d/m/Y').'', 0);
+        $this->Ln(20);
+
+        $this->SetFillColor(232,232,232);
+        $this->SetFont('Arial','B',12);
+        $this->Cell(60,6,'Cod Factura',1,0,'C',1);
+        $this->Cell(60,6,'Fecha',1,0,'C',1);
+        $this->Cell(70,6,'Concepto',1,0,'C',1);
+        $this->Cell(30,6,'Monto',1,1,'C',1);
+    }
+
+    function Footer(){
+
+        $this->SetY(-15);
+        $this->SetFont('Arial','I', 8);
+        $this->Cell(0,10, 'Pagina '.$this->PageNo().'/{nb}',0,0,'C' );
+    }
+}
+
 /**
  * Reporte de Utilidad de Productos
  */

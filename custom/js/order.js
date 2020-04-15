@@ -205,8 +205,13 @@ function addRow(){
 			$("#addRowBtn").button("reset");
 
 			var tr = '<tr id="row'+count+'" class="'+arrayNumber+'">'+
+
+					'<td style="margin-left:20px;">'+
+					'<input type="text" name="num[]" id="num'+count+'" autocomplete="off"  class="form-control" value="" disabled="true" />'+
+					'</td style="padding-left:20px;">'+
+
 					//Campo de Codigo de Productos
-					'<td style="margin-left:20px;"">'+
+					'<td style="margin-left:20px;">'+
 						'<input type="text" name="codProd[]" id="codProd'+count+'" autocomplete="off"  class="form-control" onchange="getProductData('+count+')" />'+
 					'</td style="padding-left:20px;">'+
 					//Campo eliminado 1-> activo 2->Eliminado -->
@@ -217,12 +222,6 @@ function addRow(){
 					'<td style="padding-left:20px;"">'+
 					'<div class="form-group">'+
 					'<input type="text" class="form-control" name="productName[]" id="productName'+count+'" disabled="true" >'+
-					//'<option value="">~~SELECCIONA~~</option>';
-						// console.log(response);
-					//$.each(response, function(index, value) {
-					//		tr += '<option value="'+value[0]+'">'+value[1]+'</option>';							
-					//});
-					//tr += '</select>'+
 					'</div>'+
 					'</td>'+
 					//Campo de Precio

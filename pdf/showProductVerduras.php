@@ -30,4 +30,4 @@ while($row = $resultado->fetch_assoc() ){
 
 }
 
-$pdf->Output(utf8_decode('Productos Caballero.pdf'), 'I');
+$pdf->Output(utf8_decode('Productos Comprados.pdf'), 'I');

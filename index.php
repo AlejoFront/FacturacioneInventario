@@ -1,18 +1,7 @@
-
-<style type="text/css" media="screen">
-	body{
-		background-image: url(img/login.png);
-		background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-	}
-</style>
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistema de Control Claudia Roman</title>
+	<title>Sistema de Facturacion</title>
 
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css">
@@ -37,9 +26,9 @@
 	<div class="container">
 		<div class="row vertical">
 			<div class="col-md-5 col-md-offset-4">
-				<div class="panel panel-primary">
+				<div class="panel panel-primary" >
 					<div class="panel-heading">
-						<h3 class="panel-title">Inicio de sesión</h3>
+						<h3 class="panel-title">Inicio de sesión Sistema Facturacion e Inventario</h3>
 					</div>
 					<div class="panel-body">
 
@@ -72,7 +61,7 @@
 
 								<div class="form-group">
 									<div class="col-sm-offset-3 col-sm-9">
-									  <button type="submit" class="btn btn-success"> <i class="glyphicon glyphicon-log-in"></i> Ingresar</button>
+									  <button type="submit" class="btn btn-success"> <i class="glyphicon glyphicon-log-in"></i> Iniciar Sesion</button>
 									</div>
 								</div>
 

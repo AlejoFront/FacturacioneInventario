@@ -11,7 +11,6 @@ if ($_POST) {
 	$productCosto   = $_POST['costo'];
 	$productPrecio  = $_POST['precio'];
 	$productMarca   = $_POST['marca'];
-	$productStock   = $_POST['quantity'];
 	$productStatus  = $_POST['productStatus'];
 	$categoria		= $_POST['productCat'];
 	$plata			= $_POST['Plata'];
@@ -30,7 +29,7 @@ if ($_POST) {
 			if(move_uploaded_file($_FILES['productImage']['tmp_name'], $url)) {
 				//estado del producto, 1 = Activo 2 = Inactivo
 				$sql = "INSERT INTO products (nombre, imagen, costo, precio, plata, bronce, marca, cantidad, categoria, status, estado, fchProd_add) 
-				VALUES ('$productName', '$url', '$productCosto', '$productPrecio', '$plata', '$bronce', '$productMarca', '$productStock', '$categoria', '$productStatus', 1, '$fecha')";
+				VALUES ('$productName', '$url', '$productCosto', '$productPrecio', '$plata', '$bronce', '$productMarca', 0, '$categoria', '$productStatus', 1, '$fecha')";
 
 				if($connect->query($sql) === TRUE) {
 					$valid['success'] = true;

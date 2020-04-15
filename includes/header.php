@@ -74,7 +74,9 @@
                       <li id="navProvider"><a href="provider.php"><i class="glyphicon glyphicon-credit-card"></i>  Proveedores</a></li>
 			        <?php
 			        if ($_SESSION['rol'] == 1) {
-			        	echo '<li id="navGastos"><a href="gastos.php"> <i class="glyphicon glyphicon-usd"></i> Gastos </a></li>';
+			        	echo '<li id="navGastos"><a href="gastos.php"> <i class="glyphicon glyphicon-usd"></i> Otros Gastos </a></li>';
+                        echo '<li id="navCompras"><a href="saleProduct.php"> <i class="glyphicon glyphicon-usd"></i> Comprar Productos</a></li>';
+
 			        }else{
 
 			          	}

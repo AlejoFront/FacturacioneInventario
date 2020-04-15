@@ -5,11 +5,6 @@ require_once 'includes/header.php';
 
 $orderId = $_GET["id"];
 
-//$data = "SELECT * FROM orders WHERE tipo_orden = 2 AND id_order = $orderId";
-//$resData = $connect->query($data);
-//$rowData = $resData->fetch_row();
-//$rowData = $resData->fetch_array(); -> se imprime $rowData['id_order'];
-
 $data = "SELECT orders.id_order, orders.fecha_add, orders.hora_add, orders.client_id, 
                 orders.total_neto, orders.descuento, orders.total, orders.metodo, 
                 orders.totalProducto, orders.tipo_orden, orders.monto, orders.saldo, 

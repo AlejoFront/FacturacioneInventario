@@ -22,6 +22,14 @@
 
     <input type="submit" value="guardar">
 </form>
+<br><br><br><br><br>
+<form action="php_action/createSaleProduct.php" method="post">
+    <input type="number" name="productCod" id="" placeholder="Cod product"><br>
+    <input type="number" name="productCant" id="" placeholder="Cod product"><br>
+    <br>
+    <input type="submit" value="comprar">
+</form>
+
 
 </body>
 </html>

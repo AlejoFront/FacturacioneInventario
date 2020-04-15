@@ -73,7 +73,7 @@ require_once 'includes/header.php';
 			  		$arrayNumber = 0;
 			  		#contador para añadir lineas
 			  		$numero = 1;
-			  		for ($x=1; $x <26; $x++) { 
+			  		for ($x=1; $x <=1; $x++) {
 			  		 ?>
 
 			  			<!--Se imprime las filas en la tabla -->
@@ -227,7 +227,7 @@ require_once 'includes/header.php';
 
 			<div class="form-group submitButtonFooter">
 			    <div class="col-sm-offset-2 col-sm-10">
-				<!--<button type="button" class="btn btn-warning" onclick="addRow()" id="addRowBtn" data-loading-text="Cargando..."> <i class="glyphicon glyphicon-plus-sign"></i> Añadir fila </button>-->
+				    <button type="button" class="btn btn-warning" onclick="addRow()" id="addRowBtn" data-loading-text="Cargando..."> <i class="glyphicon glyphicon-plus-sign"></i> Añadir fila </button>
 				    <button type="submit" id="createOrderBtn" data-loading-text="Cargando..." class="btn btn-success"><i class="glyphicon glyphicon-ok-sign"></i> Guardar cambios</button>
 				    <button type="reset" class="btn btn-info" onclick="resetOrderForm()"><i class="glyphicon glyphicon-erase"></i> Reiniciar</button>
 			    </div>

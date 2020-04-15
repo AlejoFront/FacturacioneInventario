@@ -22,6 +22,7 @@
             <li class="active"><a href="#clientes" aria-controls="home" role="tab" data-toggle="tab">Clientes</a></li>
             <li><a href="#ventas" aria-controls="home" role="tab" data-toggle="tab">Ventas/Consignaciones</a></li>
             <li><a href="#productos" aria-controls="home" role="tab" data-toggle="tab">Productos</a></li>
+            <li><a href="#gastos" aria-controls="home" role="tab" data-toggle="tab">Gastos</a></li>
         </ul>
 
         <div class="tab-content">
@@ -416,6 +417,41 @@
 
             </div>
             <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <div role="tabpanel" class="tab-pane" id="gastos">
+                </br>
+
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <div class="page-heading"> <i class="glyphicon glyphicon-edit"></i> Reportes de Gastos</div>
+                    </div> <!-- /panel-heading -->
+
+                    <div class="panel-body">
+
+                        <div class="col-md-3">
+
+                            <div class="div-action " style="padding-bottom:20px;">
+                                <p>Imprimir Reportes de Compras</p>
+                                <a href="pdf/showProductComprados.php" title=""  target=”_blank” ><button class="btn btn-danger button1" data-toggle="modal" > <i class="glyphicon glyphicon-print"></i> Imprimir </button></a>
+                            </div> <!-- /div-action -->
+
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="div-action " style="padding-bottom:20px;">
+                                <p>Imprimir Gastos Fijos</p>
+                                <a href="pdf/showOtherGastos.php" title=""  target=”_blank” ><button class="btn btn-danger button1" data-toggle="modal" > <i class="glyphicon glyphicon-print"></i> Imprimir </button></a>
+                            </div> <!-- /div-action -->
+
+                        </div>
+
+
+
+                    </div> <!-- /panel-body -->
+                </div> <!-- /panel -->
+
+            </div>
+
         </div>
 
     </div>
